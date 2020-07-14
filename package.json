@@ -1,13 +1,14 @@
 {
   "name": "learn-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webpack and creating a workflow",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build:prod": "webpack --config webpack.config.prod.js"
   },
-  "author": "",
+  "author": "Chi Dang",
   "license": "ISC",
   "browserslist": "> 1%, last 2 versions",
   "devDependencies": {
